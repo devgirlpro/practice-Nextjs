@@ -31,3 +31,41 @@ body {
     text-wrap: balance;
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(180deg, #232029, #231e2d);
+  color: #ddd8e4;
+}
+
+main {
+  text-align: center;
+  margin: 5rem au;
+}
+
+main img {
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  filter: drop-shadow(0 0 4px #f6c363);
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 3rem auto;
+  color: #ede9f3;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/* p a {
+  color: #f4c33d;
+} */
