@@ -7,6 +7,7 @@ export default function Home() {
      <Header />
       <p className='text-blue-600 font-medium hover:font-bold' ><a href='/pages/about'>About us</a></p>
       <Link href='/pages/contact' className='text-blue-600 font-medium hover:font-bold'>Contact Us</Link>
+      <Link href='/pages/blog' >BLOG</Link>
     </div>
   );
 }
